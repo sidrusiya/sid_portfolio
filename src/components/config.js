@@ -12,11 +12,11 @@ module.exports = {
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/SiddharthaRusi1',
+      url: 'https://x.com/sidrusiya',
     },
     {
       name: 'Linkedin',
-      url: 'https://in.linkedin.com/in/siddhartha-rusiya-79478a185',
+      url: 'https://in.linkedin.com/in/sidrusiya',
     },
   ],
 
@@ -42,10 +42,25 @@ module.exports = {
   jobsData: [
     { 
       node: {
-        title: 'Associate Software Engineer',
+        title: 'Software Engineer 2',
         company: 'Oracle',
         location: 'Hyderabad, IN',
-        range: 'July 2022 - Present',
+        range: 'Aug 2024 - Present',
+        shortform: 'SDE-2',
+        url: 'https://www.oracle.com/',
+        html: '<ul>'+
+        '<li>Designed & Developed a solution for integrating a reporting application into the main hospitality system, leveraging the core application’s UI framework for reports and the reporting app’s report generation server.</li>'+
+        '<li>This integration ensured a seamless user experience while reducing the load on the core application.</li>'+
+        '</ul>'
+      }
+    },
+    { 
+      node: {
+        title: 'Software Engineer',
+        company: 'Oracle',
+        location: 'Hyderabad, IN',
+        range: 'July 2022 - Aug 2024',
+        shortform: 'SDE-1',
         url: 'https://www.oracle.com/',
         html: '<ul>'+
         '<li>Developed Import Data framework, focusing on implementing chunking techniques and a robust uploading mechanism to efficiently handle large file uploads within the application.</li>'+
@@ -55,10 +70,11 @@ module.exports = {
     },
     { 
       node: {
-        title: 'Project Intern',
+        title: 'SDE Intern',
         company: 'Oracle',
         location: 'Hyderabad, IN',
-        range: 'Jan 2022 - July 2022',
+        range: 'Jan 2022 - Jun 2022',
+        shortform: 'Intern',
         url: 'https://www.oracle.com/',
         html: '<ul>'+
         '<li>Developed membership features for the hospitality app.</li>'+
